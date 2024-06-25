@@ -2,51 +2,39 @@ package org.example;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class ShoppingCart {
-
     private final List<Product> products = new ArrayList<>();
+    private final Map<String, PriceCalculator> priceCalculators = new HashMap<>();
+
+    public ShoppingCart() {
+        priceCalculators.put("Magic: The Gathering", new PriceCalculator.MagicCardPriceCalculator());
+        priceCalculators.put("pet", new PriceCalculator.PetPriceCalculator());
+        priceCalculators.put("gourmet", new PriceCalculator.GourmetProductPriceCalculator());
+        priceCalculators.put("fish", new PriceCalculator.FishPriceCalculator());
+    }
 
     public void addProduct(Product product) {
         products.add(product);
     }
 
     public Double getTotalPrice() {
-        return  products.stream()
+        return products.stream()
                 .map(this::calculatePrice)
                 .reduce(BigDecimal.ZERO, BigDecimal::add)
                 .doubleValue();
     }
 
     private BigDecimal calculatePrice(Product product) {
-        if (product.getNumberOfLegs() != null) {
-            return BigDecimal.valueOf(4.2 * product.getNumberOfLegs());
-        } else if (product.getAge() != null) {
-            if (product.isStinky()) {
-                return BigDecimal.valueOf(10.0* product.getAge());
-            } else {
-                return BigDecimal.valueOf(20.0 * product.getAge());
-            }
-        } else if (product.getColor() != null && product.getBasePrice() != null) {
-            return switch (product.getColor()) {
-                case "blue" -> product.getBasePrice().add(BigDecimal.valueOf(0.1));
-                case "gold" -> product.getBasePrice().multiply(BigDecimal.valueOf(100.0));
-                default -> product.getBasePrice();
-            };
-        } else if (product.getName().equals("Magic: The Gathering - Black Lotus")) {
-            return BigDecimal.valueOf(40000.0);
-        } else if (product.getName().startsWith("Magic: The Gathering")) {
-            return switch (product.getColor()) {
-                case "blue" -> BigDecimal.valueOf(5.0);
-                case "red" -> BigDecimal.valueOf(3.5);
-                case "green" -> BigDecimal.valueOf(4.40);
-                case "black" -> BigDecimal.valueOf(6.80);
-                default -> BigDecimal.valueOf(2.0);
-            };
+        if (product.getName().contains("Magic: The Gathering")) {
+            return priceCalculators.get("Magic: The Gathering").calculatePrice(product);
+        } else if (product.getType() != null) {
+            return priceCalculators.get(product.getType()).calculatePrice(product);
         } else {
             return product.getSellPrice();
         }
     }
-
 }
