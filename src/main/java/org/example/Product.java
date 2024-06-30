@@ -3,40 +3,29 @@ package org.example;
 import java.math.BigDecimal;
 
 public class Product {
-    private final Integer numberOfLegs;
     private final Integer age;
-    private final boolean isStinky;
-    private final String color;
     private final BigDecimal basePrice;
     private final String name;
     private final BigDecimal sellPrice;
     private final String type;
+    private final Integer numberOfLegs;
+    private final boolean isStinky;
+    private final String color;
 
-    public Product(Integer numberOfLegs, Integer age, boolean isStinky, String color, BigDecimal basePrice, String name, BigDecimal sellPrice, String type) {
-        this.numberOfLegs = numberOfLegs;
+
+    public Product(Integer age, BigDecimal basePrice, String name, BigDecimal sellPrice, String type, Integer numberOfLegs, boolean isStinky, String color) {
         this.age = age;
-        this.isStinky = isStinky;
-        this.color = color;
         this.basePrice = basePrice;
         this.name = name;
         this.sellPrice = sellPrice;
         this.type = type;
-    }
-
-    public Integer getNumberOfLegs() {
-        return numberOfLegs;
+        this.numberOfLegs = numberOfLegs;
+        this.isStinky = isStinky;
+        this.color = color;
     }
 
     public Integer getAge() {
         return age;
-    }
-
-    public boolean isStinky() {
-        return isStinky;
-    }
-
-    public String getColor() {
-        return color;
     }
 
     public BigDecimal getBasePrice() {
@@ -54,4 +43,10 @@ public class Product {
     public String getType() {
         return type;
     }
-}
+
+    public Integer getNumberOfLegs() { return numberOfLegs; }
+
+    public boolean isStinky() { return isStinky; }
+
+    public String getColor() { return color; }
+    }
