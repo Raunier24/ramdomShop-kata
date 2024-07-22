@@ -14,3 +14,4 @@ Project requirements:
 2. Add new product to the store: Pet Spiders.
 
 Project created by: Raunier Limonta & Isamar Romero.
+![RandomShop](https://github.com/user-attachments/assets/a062c207-ece6-449d-a236-48e773bd486d)
