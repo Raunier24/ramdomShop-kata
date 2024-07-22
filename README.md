@@ -5,7 +5,7 @@ has left the company to set up his own startup, we proceed to hire
 a new programmer and work on the saved project.
 
 STOCK of products in the store:
-1. Pets (price depends on the number of paws and color) 2.
+1. Pets (price depends on the number of paws and color) 2.git re
 2. Gourmet products (depends on their age)
 3. Magic: The Gathering cards (depends on the color)
 
