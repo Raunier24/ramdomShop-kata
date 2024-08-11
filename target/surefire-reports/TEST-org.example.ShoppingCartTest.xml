@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.ShoppingCartTest" time="0.06" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.ShoppingCartTest" time="0.088" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\Cursos\Programación Donbosco\Java\ramdomShop-kata\ramdomShop-kata\target\test-classes;D:\Cursos\Programación Donbosco\Java\ramdomShop-kata\ramdomShop-kata\target\classes;C:\Users\34722\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.0-RC1\junit-jupiter-5.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0-RC1\junit-jupiter-api-5.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\34722\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0-RC1\junit-platform-commons-1.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\34722\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0-RC1\junit-jupiter-params-5.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.0-RC1\junit-jupiter-engine-5.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\junit\platform\junit-platform-engine\1.11.0-RC1\junit-platform-engine-1.11.0-RC1.jar;"/>
+    <property name="java.class.path" value="D:\Cursos\Programación Donbosco\Java\ramdomShop-kata-1\target\test-classes;D:\Cursos\Programación Donbosco\Java\ramdomShop-kata-1\target\classes;C:\Users\34722\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.0-RC1\junit-jupiter-5.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0-RC1\junit-jupiter-api-5.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\34722\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0-RC1\junit-platform-commons-1.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\34722\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0-RC1\junit-jupiter-params-5.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.0-RC1\junit-jupiter-engine-5.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\junit\platform\junit-platform-engine\1.11.0-RC1\junit-platform-engine-1.11.0-RC1.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,10 +15,10 @@
     <property name="user.country" value="ES"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Users\34722\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.11.9-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\34722\AppData\Local\Temp\surefire13658980245021578186\surefirebooter-20240811194300427_3.jar C:\Users\34722\AppData\Local\Temp\surefire13658980245021578186 2024-08-11T19-42-59_508-jvmRun1 surefire-20240811194300427_1tmp surefire_0-20240811194300427_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\34722\AppData\Local\Temp\surefire12942558146482297753\surefirebooter-20240811195714797_3.jar C:\Users\34722\AppData\Local\Temp\surefire12942558146482297753 2024-08-11T19-57-14_413-jvmRun1 surefire-20240811195714797_1tmp surefire_0-20240811195714797_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="${packageClassName}"/>
-    <property name="surefire.test.class.path" value="D:\Cursos\Programación Donbosco\Java\ramdomShop-kata\ramdomShop-kata\target\test-classes;D:\Cursos\Programación Donbosco\Java\ramdomShop-kata\ramdomShop-kata\target\classes;C:\Users\34722\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.0-RC1\junit-jupiter-5.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0-RC1\junit-jupiter-api-5.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\34722\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0-RC1\junit-platform-commons-1.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\34722\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0-RC1\junit-jupiter-params-5.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.0-RC1\junit-jupiter-engine-5.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\junit\platform\junit-platform-engine\1.11.0-RC1\junit-platform-engine-1.11.0-RC1.jar;"/>
+    <property name="test" value="org.example.ShoppingCartTest"/>
+    <property name="surefire.test.class.path" value="D:\Cursos\Programación Donbosco\Java\ramdomShop-kata-1\target\test-classes;D:\Cursos\Programación Donbosco\Java\ramdomShop-kata-1\target\classes;C:\Users\34722\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.0-RC1\junit-jupiter-5.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0-RC1\junit-jupiter-api-5.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\34722\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0-RC1\junit-platform-commons-1.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\34722\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0-RC1\junit-jupiter-params-5.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.0-RC1\junit-jupiter-engine-5.11.0-RC1.jar;C:\Users\34722\.m2\repository\org\junit\platform\junit-platform-engine\1.11.0-RC1\junit-platform-engine-1.11.0-RC1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\34722"/>
     <property name="user.language" value="es"/>
@@ -26,12 +26,12 @@
     <property name="java.version.date" value="2024-04-16"/>
     <property name="java.home" value="C:\Users\34722\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.11.9-hotspot"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="D:\Cursos\Programación Donbosco\Java\ramdomShop-kata\ramdomShop-kata"/>
+    <property name="basedir" value="D:\Cursos\Programación Donbosco\Java\ramdomShop-kata-1"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\34722\AppData\Local\Temp\surefire13658980245021578186\surefirebooter-20240811194300427_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\34722\AppData\Local\Temp\surefire12942558146482297753\surefirebooter-20240811195714797_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.11+9"/>
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\34722\AppData\Local\Temp\"/>
     <property name="java.version" value="17.0.11"/>
-    <property name="user.dir" value="D:\Cursos\Programación Donbosco\Java\ramdomShop-kata\ramdomShop-kata"/>
+    <property name="user.dir" value="D:\Cursos\Programación Donbosco\Java\ramdomShop-kata-1"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -59,20 +59,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="calculatePriceForMagicCards_redOver10Years" classname="org.example.ShoppingCartTest" time="0.026"/>
-  <testcase name="calculatePriceForMagicCards_blackLotus" classname="org.example.ShoppingCartTest" time="0.0"/>
-  <testcase name="calculatePriceForFish_blue" classname="org.example.ShoppingCartTest" time="0.001"/>
-  <testcase name="calculatePriceForFish_gold" classname="org.example.ShoppingCartTest" time="0.002"/>
+  <testcase name="calculatePriceForMagicCards_redOver10Years" classname="org.example.ShoppingCartTest" time="0.041"/>
+  <testcase name="calculatePriceForMagicCards_blackLotus" classname="org.example.ShoppingCartTest" time="0.001"/>
+  <testcase name="calculatePriceForFish_blue" classname="org.example.ShoppingCartTest" time="0.002"/>
+  <testcase name="calculatePriceForFish_gold" classname="org.example.ShoppingCartTest" time="0.001"/>
   <testcase name="calculatePriceForCheese" classname="org.example.ShoppingCartTest" time="0.001"/>
-  <testcase name="calculatePriceForRedSpider" classname="org.example.ShoppingCartTest" time="0.0"/>
-  <testcase name="calculatePriceForStinkySpider" classname="org.example.ShoppingCartTest" time="0.0"/>
-  <testcase name="calculatePriceForMagicCards_black" classname="org.example.ShoppingCartTest" time="0.0"/>
+  <testcase name="calculatePriceForRedSpider" classname="org.example.ShoppingCartTest" time="0.001"/>
+  <testcase name="calculatePriceForStinkySpider" classname="org.example.ShoppingCartTest" time="0.001"/>
+  <testcase name="calculatePriceForMagicCards_black" classname="org.example.ShoppingCartTest" time="0.001"/>
   <testcase name="calculatePriceForMagicCards_brown" classname="org.example.ShoppingCartTest" time="0.001"/>
   <testcase name="calculatePriceForMagicCards_green" classname="org.example.ShoppingCartTest" time="0.001"/>
-  <testcase name="calculatePriceForGoldSpider" classname="org.example.ShoppingCartTest" time="0.001"/>
+  <testcase name="calculatePriceForGoldSpider" classname="org.example.ShoppingCartTest" time="0.002"/>
   <testcase name="calculatePriceForPetWithLegs" classname="org.example.ShoppingCartTest" time="0.001"/>
-  <testcase name="calculatePriceForMagicCards_greenOver20Years" classname="org.example.ShoppingCartTest" time="0.001"/>
+  <testcase name="calculatePriceForMagicCards_greenOver20Years" classname="org.example.ShoppingCartTest" time="0.0"/>
   <testcase name="calculatePriceForMagicCards_blue" classname="org.example.ShoppingCartTest" time="0.0"/>
-  <testcase name="calculatePriceForWine" classname="org.example.ShoppingCartTest" time="0.0"/>
-  <testcase name="calculatePriceForMagicCards_red" classname="org.example.ShoppingCartTest" time="0.0"/>
+  <testcase name="calculatePriceForWine" classname="org.example.ShoppingCartTest" time="0.001"/>
+  <testcase name="calculatePriceForMagicCards_red" classname="org.example.ShoppingCartTest" time="0.001"/>
 </testsuite>
